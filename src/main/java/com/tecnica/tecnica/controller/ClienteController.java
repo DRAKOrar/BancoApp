@@ -28,6 +28,7 @@ public class ClienteController {
         }
     }
 
+
     @GetMapping("/listar")
     public ResponseEntity<List<Cliente>> listarClientes() {
         List<Cliente> clientes = clienteService.listarClientes();
